@@ -1,0 +1,8 @@
+# Copyright (c) 2023 You
+# SPDX-License-Identifier: MIT
+
+config SHIELD_ORTHODOX_LEFT
+  def_bool $(shields_list_contains,orthodox_left)
+
+config SHIELD_ORTHODOX_RIGHT
+  def_bool $(shields_list_contains,orthodox_right)

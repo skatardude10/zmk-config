@@ -1,0 +1,19 @@
+# Copyright (c) 2023 You
+# SPDX-License-Identifier: MIT
+
+if SHIELD_ORTHODOX_LEFT
+
+config ZMK_KEYBOARD_NAME
+  default "Orthodox Left"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+  default y
+
+endif
+
+if SHIELD_ORTHODOX_LEFT || SHIELD_ORTHODOX_RIGHT
+
+config ZMK_SPLIT
+  default y
+
+endif

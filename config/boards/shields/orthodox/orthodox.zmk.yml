@@ -1,0 +1,13 @@
+# Copyright (c) 2023 You 
+# SPDX-License-Identifier: MIT
+
+file_format: "1"
+id: orthodox
+name: Orthodox
+type: shield
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - orthodox_left
+  - orthodox_right

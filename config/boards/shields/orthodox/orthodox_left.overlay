@@ -1,0 +1,8 @@
+# Copyright (c) 2023 You
+# SPDX-License-Identifier: MIT 
+
+#include "orthodox.dtsi"
+
+&kscan0 {
+  // left side matrix pins
+};

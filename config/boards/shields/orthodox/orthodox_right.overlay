@@ -1,0 +1,12 @@
+# Copyright (c) 2023 You
+# SPDX-License-Identifier: MIT
+
+#include "orthodox.dtsi" 
+
+&default_transform {
+  col-offset = <6>; 
+};
+
+&kscan0 {
+  // right side matrix pins  
+};
